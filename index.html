@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Gokul Bharti-Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+
+
+</head>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+
+
+
+	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-Projects">Project</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-resume">Education & Experience</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+	<section class="site-hero" style="background-image: url(img/IMG_7477.JPG.jpeg);" id="section-home" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row intro-text align-items-center justify-content-center">
+				<div class="col-md-10 text-center pt-5">
+
+					<h1 class="site-heading site-animate">Film · Television<strong class="d-block">Gokul Bharti</strong></h1>
+					<strong class="d-block text-white text-uppercase letter-spacing" style="font-weight: 700;">Living one character at a time</strong>
+                    <a href="#section-about" 
+   class="smoothscroll btn btn-primary px-4 py-3 mt-3 site-animate" 
+   style="background-color: #181817; border-color: #faf9f8; color: white;">
+   More About Me
+</a>
+
+				</div>
+			</div>
+		</div>
+	</section> <!-- section -->
+
+
+
+
+
+
+	<style>
+/* FILTER BUTTONS */
+.filters ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.filters ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 20px;
+    background: #979152;
+    cursor: pointer;
+    border-radius: 20px;
+
+    color: #180b0b;   /* 👈 ADD THIS LINE */
+}
+.filters ul li.active {
+    background: #362c0a;
+    color: #815c34;
+}
+
+/* PORTFOLIO */
+.single-portfolio {
+    margin-bottom: 30px;
+}
+
+/* IMAGE HOVER EFFECT */
+.thumb {
+    position: relative;
+    overflow: hidden;
+}
+.thumb img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.view-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.thumb:hover .overlay {
+    opacity: 1;
+}
+.thumb:hover .view-btn {
+    opacity: 1;
+}
+</style>
+
+<section class="site-section" id="section-Projects">
+<div class="container">
+
+<h2 style="text-align:center;">Featured Projects</h2>
+
+<div class="filters">
+<ul>
+<li class="active" data-filter="*">All</li>
+<li data-filter=".short">Short Film</li>
+<li data-filter=".mono">Monologue</li>
+<li data-filter=".ad">Ad Film</li>
+<li data-filter=".scene">Scene Recreation</li>
+</ul>
+</div>
+
+<div class="row grid">
+
+<!-- 1 -->
+<div class="col-sm-4 single-portfolio short">
+<div class="thumb">
+<img src="img/bhaidooj.jpeg">
+<div class="overlay"></div>
+<a href="https://youtu.be/5svUcoa1I1M?si=u0AMa10KiWkGD-AK" class="view-btn">View</a>
+</div>
+<div class="p-inner">
+<h4>Bhai dooj</h4>
+<p class="sub-text">Short Film </p>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="col-sm-4 single-portfolio short">
+<div class="thumb">
+<img src="img/Kulfi.jpeg">
+<div class="overlay"></div>
+<a href="https://www.youtube.com/watch?v=B0XCmElCUZo" class="view-btn">View</a>
+</div>
+<div class="p-inner">
+<h4>Kulfi</h4>
+<p class="sub-text">Short Film </p>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="col-sm-4 single-portfolio short">
+<div class="thumb">
+<img src="img/brats.jpeg">
+<div class="overlay"></div>
+<a href="#" class="view-btn">View</a>
+</div>
+<div class="p-inner">
+<h4>Brats</h4>
+<p class="sub-text">Short Film </p>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="col-sm-4 single-portfolio short">
+<div class="thumb">
+<img src="img/lost&found.jpeg">
+<div class="overlay"></div>
+<a href="#" class="view-btn">View</a>
+</div>
+<div class="p-inner">
+<h4>Lost & Found</h4>
+<p class="sub-text">Short Film </p>
+</div>
+</div>
+
+<!-- 5 -->
+<div class="col-sm-4 single-portfolio short">
+<div class="thumb">
+<img src="img/Bhookh.jpeg">
+<div class="overlay"></div>
+<a href="#" class="view-btn">View</a>
+</div>
+<div class="p-inner">
+<h4>Bhookh</h4>
+<p class="sub-text">Short Film </p>
+</div>
+</div>
+
+<!-- 6 -->
+<div class="col-sm-4 single-portfolio short">
+<div class="thumb">
+<img src="img/obsart-6.jpeg">
+<div class="overlay"></div>
+<a href="#" class="view-btn">View</a>
+</div>
+<div class="p-inner">
+<h4>Obsart</h4>
+<p class="sub-text">Short Film </p>
+</div>
+</div>
+
+<!-- 7 -->
+<div class="col-sm-4 single-portfolio scene">
+<div class="thumb">
+<img src="img/Pulp fiction reloaded.jpeg">
+<div class="overlay"></div>
+<a href="#" class="view-btn">View</a>
+</div>
+<div class="p-inner">
+<h4>Pulp Fiction Reloaded</h4>
+<p class="sub-text">Scene Recreation</p>
+</div>
+</div>
+
+<!-- 8 -->
+<div class="col-sm-4 single-portfolio scene">
+<div class="thumb">
+<img src="img/Ramleela.jpeg">
+<div class="overlay"></div>
+<a href="#" class="view-btn">View</a>
+</div>
+<div class="p-inner">
+<h4>Ramleela</h4>
+<p class="sub-text">Scene Recreation</p>
+</div>
+</div>
+
+<!-- 9 -->
+<div class="col-sm-4 single-portfolio ad">
+<div class="thumb">
+<img src="img/project9.jpeg">
+<div class="overlay"></div>
+<a href="#" class="view-btn">View</a>
+</div>
+<div class="p-inner">
+<h4>Ascent Perfume</h4>
+<p class="sub-text">Ad Film</p>
+</div>
+</div>
+
+<!-- 10 -->
+<div class="col-sm-4 single-portfolio ad">
+<div class="thumb">
+<img src="img/project10.jpeg">
+<div class="overlay"></div>
+<a href="#" class="view-btn">View</a>
+</div>
+<div class="p-inner">
+<h4>Lays</h4>
+<p class="sub-text">Ad Film</p>
+</div>
+</div>
+</div>
+</section>
+
+<script>
+// FILTER FUNCTION
+const filterBtns = document.querySelectorAll(".filters li");
+const items = document.querySelectorAll(".single-portfolio");
+
+filterBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+
+        document.querySelector(".filters .active").classList.remove("active");
+        btn.classList.add("active");
+
+        let filter = btn.getAttribute("data-filter");
+
+        items.forEach(item => {
+            if(filter === "*" || item.classList.contains(filter.substring(1))){
+                item.style.display = "block";
+            } else {
+                item.style.display = "none";
+            }
+        });
+
+    });
+});
+</script>
+	<!-- .section -->
+
+	
+	<section class="site-section " id="section-resume">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>My <strong>Education & Experience</strong></h2>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h2 class="mb-5">Education</h2>
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
+						<h3>Masteral in Information Technology</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span class="school">New York University</span>
+					</div>
+
+				</div>
+				<div class="col-md-6">
+
+
+					<h2 class="mb-5">Experience</h2>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
+						<h3>Lead Product Designer</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span class="school">Github</span>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section> <!-- .section -->
+
+	<section class="site-section" id="section-about">
+		<div class="container">
+			<div class="row mb-5 align-items-center">
+				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+					<img src="img/IMG_4030.jpg" alt="Image placeholder" class="img-fluid">
+				</div>
+				<div class="col-lg-5 pl-lg-5">
+					<div class="section-heading">
+						<h2>About <strong>Me</strong></h2>
+					</div>
+					<p class="lead">They ask film or theatre actor? I say am an ACTOR and I find no difference in presenting my art under different setups. </p>
+					<p class="mb-5  ">Hi, my name is Gokul Kumar Bharti and I’m a film student currently studying cinema (specialisation in acting) at Asian Academy of Film and Television. I’ve done multiple projects including shot films and plays  at my institute.</p>
+
+					<p>
+						<a href="#" class="btn btn-secondary px-4 py-2 btn-sm">Cast Me</a>
+					</p>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+
+	
+
+	<section class="site-section" id="section-blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2> Acts on <strong>Social Media</strong></h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+
+                <div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="https://www.instagram.com/reel/DRzUGzTk3iI/?igsh=MWEzdzBiMjN5c3poMQ=="><img src="img/img3.jpeg" alt="Image placeholder" class="img-fluid"></a>
+						<div class="blog-entry-text">
+							<h3><a href="https://www.instagram.com/reel/DRzUGzTk3iI/?igsh=MWEzdzBiMjN5c3poMQ==">Prodigal son </a></h3>
+							<p class="mb-4">A chunk from the play prodigal son played by Timothée Chalamet.</p>
+
+							<div class="meta">
+								<a href="#"><span class="icon-calendar"></span> Dec 3, 2025</a>
+							</div>
+                            <a href="https://www.instagram.com/reel/DRzUGzTk3iI/?igsh=MWEzdzBiMjN5c3poMQ==" class="btn view-btn">🎬 Click to Watch</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="https://www.instagram.com/reel/DSxEnzJE--U/?igsh=amkzdjRyb3lmbnFx"><img src="img/img2.jpeg" alt="Image placeholder" class="img-fluid"></a>
+						<div class="blog-entry-text">
+							<h3><a href="https://www.instagram.com/reel/DSxEnzJE--U/?igsh=amkzdjRyb3lmbnFx">Andhadhun on Instagram</a></h3>
+							<p class="mb-4">Work inspired from andhadhun and daredevil.</p>
+
+							<div class="meta">
+								<a href="#"><span class="icon-calendar"></span> Dec 27, 2025</a>
+							</div>
+                            <a href="https://www.instagram.com/reel/DSxEnzJE--U/?igsh=amkzdjRyb3lmbnFx" class="btn view-btn">🎬 Click to Watch</a>
+						</div>
+					</div>
+				</div>
+
+				
+
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="https://www.instagram.com/reel/DVqeen6E6M7/?igsh=MTV6eGswNXI1cXNzNQ=="><img src="img/img4.jpeg" alt="Image placeholder" class="img-fluid"></a>
+						<div class="blog-entry-text">
+							<h3><a href="https://www.instagram.com/reel/DVqeen6E6M7/?igsh=MTV6eGswNXI1cXNzNQ==">Nocturnal Animals</a></h3>
+							<p class="mb-4">Scene recreation of nocturnal animals, played by jake gyllenhaal.</p>
+
+							<div class="meta">
+								<a href="#"><span class="icon-calendar"></span> March 9, 2026</a>
+							</div>
+                            <a href="https://www.instagram.com/reel/DVqeen6E6M7/?igsh=MTV6eGswNXI1cXNzNQ==" class="btn view-btn">🎬 Click to Watch</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="site-section" id="section-contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>Get <strong>In Touch</strong></h2>
+					</div>
+				</div>
+
+				<div class="col-md-7 mb-5 mb-md-0">
+					<form action="" class="site-form">
+						<h3 class="mb-5">Get In Touch</h3>
+						<div class="form-group">
+							<input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
+						</div>
+						<div class="form-group mb-5">
+							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+						</div>
+					</form>
+				</div>
+				<div class="col-md-5 pl-md-5">
+					<h3 class="mb-5">My Contact Details</h3>
+					<ul class="site-contact-details">
+						<li>
+							<span class="text-uppercase">Email</span>
+							bhartigokul06@gmail.com
+						</li>
+						<li>
+							<span class="text-uppercase">Phone</span>
+							+91 8881679189
+						</li>
+						<li>
+							<span class="text-uppercase">Address</span>
+							Sector 19, Noida <br>
+							Uttar Pradesh, India <br>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="site-footer">
+		<div class="container">
+
+			<div class="row mb-5">
+				<p class="col-12 text-center">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Made <i class="icon-heart text-danger" aria-hidden="true" ></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Gokul Bharti</a>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</p>
+			</div>
+			
+			<div class="row mb-5">
+				<div class="col-md-12 text-center">
+					<p>
+						<a href="https://www.instagram.com/gokul_acts_?igsh=MWM4ZmhpdnZpMHEzcg%3D%3D&utm_source=qr" class="social-item"><span class="icon-instagram2"></span></a>
+						<a href="https://www.linkedin.com/in/gokul-bharti-a509b6325?utm_source=share_via&utm_content=profile&utm_medium=member_ios" class="social-item"><span class="icon-linkedin2"></span></a>
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+
+
+
+
+	<script src="js/vendor/jquery.min.js"></script>
+	<script src="js/vendor/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/vendor/popper.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+
+	<script src="js/vendor/jquery.easing.1.3.js"></script>
+
+	<script src="js/vendor/jquery.stellar.min.js"></script>
+	<script src="js/vendor/jquery.waypoints.min.js"></script>
+
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="js/custom.js"></script>
+
+	<!-- Google Map -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    	<script src="js/google-map.js"></script> -->
+
+    </body>
+    </html>
